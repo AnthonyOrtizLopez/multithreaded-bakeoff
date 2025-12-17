@@ -1,24 +1,24 @@
 # Multithreaded-bakeoff
 A multithreaded bake-off program in C using POSIX threads and semaphores to simulate bakers sharing resources.
 
-# Overview
+## Overview
 The program prompts the user for a number of bakers.
 Each baker runs as its own thread and completes 5 recipes as quickly as possible while using shared resources.
 
-# Table of contents
+## Table of contents
 - Concepts used
 - Resources
 - Building/Running
 - Example Output
 
-# Concepts used
+## Concepts used
 - POSIX threads
 - Counting and binary semaphores
 - Shared state using a struct
 - Concurrency and nondeterministic execution
 - Ramsied: 1 baker may be "Ramsied" and restarts on the current recipe
 
-# Resources
+## Resources
 - Pantry: 1
 - Refrigerator: 2
 - Mixers: 2
@@ -26,12 +26,12 @@ Each baker runs as its own thread and completes 5 recipes as quickly as possible
 - Spoons: 5
 - Oven: 1
 
-# Building and Running
+## Building and Running
 - Windows/Linux/MacOS
 - gcc bakeoff.c -o bakeoff
 - ./bakeoff
 
-# Example Output
+## Example Output
 Enter number of bakers: 4
 Baker is ready to bake
 Starting cookies recipe
