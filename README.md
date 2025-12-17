@@ -32,9 +32,9 @@ Each baker runs as its own thread and completes 5 recipes as quickly as possible
 - ./bakeoff
 
 ## Example Output
-Enter number of bakers: 4
-Baker is ready to bake
-Starting cookies recipe
-...
-Finished all recipes!!!!
-All bakers have finished baking all recipes!
+- Enter number of bakers: 4
+- Baker is ready to bake
+- Starting cookies recipe
+- ...
+- Finished all recipes!!!!
+- All bakers have finished baking all recipes!
